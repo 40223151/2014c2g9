@@ -63,8 +63,8 @@ expanded="course-mde-tw.20140417093332.2218,"><vh>@file application</vh></v>
 <v t="2014spring.20140503095553.1932"><vh>@path wsgi/programs/c2g2</vh>
 <v t="2014spring.20140503095553.1933"><vh>@edit __init__.py</vh></v>
 </v>
-<v t="2014python.20140505101044.1942" a="E"><vh>@path wsgi/programs/c2g9</vh>
-<v t="2014python.20140505101044.1943"><vh>@edit __init__.py</vh></v>
+<v t="2014python.20140511215742.2083" a="E"><vh>@path wsgi/programs/c2g9</vh>
+<v t="2014python.20140511215742.2084"><vh>@edit __init__.py</vh></v>
 </v>
 </v>
 <v t="2014spring.20140503095553.1883" a="E"><vh>利用 pandoc 進行格式轉換</vh>
@@ -303,7 +303,7 @@ to handlers is not always 1:1, this provides a flexibility which is not as easil
 However, because the arrangement of config is directly related to the arrangement of handlers, it is the 
 responsibility of the Dispatcher to collect per-handler config, merge it with per-URI and global config, and bind the 
 resulting dict to cherrypy.request.config. This dict is of depth 1 and will contain all config entries which are in effect for the current request.</t>
-<t tx="2014python.20140505101044.1942"></t>
+<t tx="2014python.20140511215742.2083"></t>
 <t tx="2014pythonE.20140224205837.3150"></t>
 <t tx="2014pythonE.20140224205837.3151">QSplitter::handle {
     background-color: #CAE1FF; /* lightSteelBlue1 */
