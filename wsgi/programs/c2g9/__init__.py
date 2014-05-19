@@ -14,8 +14,8 @@ class C2G9(object):
 <a href="drawstar">c2g9 drawstar 繪圖</a><br />
 <a href=" triangle">c2g9 triangle 繪圖</a><br />
 <a href=" triangle2">c2g9 triangle2 繪圖</a><br />
-<a href=" Japan">c2g9 Japan 繪圖</a><br />
-<a href=" American ">c2g9 American  繪圖</a><br />
+<a href=" Japan_flag">c2g9 Japan_flag 繪圖</a><br />
+<a href=" American_flag ">c2g9 American_flag  繪圖</a><br />
 '''
         return outstring
 
@@ -281,7 +281,7 @@ class C2G9(object):
     '''
         return outstring
     @cherrypy.expose
-    def Japan(self, *args, **kwargs):
+    def Japan_flag(self, *args, **kwargs):
         '''
         原始程式來源: http://blog.roodo.com/esabear/archives/19215194.html
         改寫為 Brython 程式
@@ -329,7 +329,7 @@ class C2G9(object):
     '''
         return outstring
     @cherrypy.expose
-    def American (self, *args, **kwargs):
+    def American_flag (self, *args, **kwargs):
         '''
         原始程式來源: http://blog.roodo.com/esabear/archives/19215194.html
         改寫為 Brython 程式
